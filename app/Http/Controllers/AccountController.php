@@ -19,7 +19,7 @@ class AccountController extends Controller
                 if (!$account->active) {
                     $account->active = true;
                     $account->save();
-                    $account->notify('Account restored');
+                    $account->notifyAboutActuveStatus();
                 }
             } else {
                 return response()->json(['message' => 'Account is not found'], 400);

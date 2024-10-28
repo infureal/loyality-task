@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\AccountController;
-use App\Http\Controllers\LoyaltyPointsController;
+use App\Http\Controllers\Api\V1\LoyaltyPointsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
