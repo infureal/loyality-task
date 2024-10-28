@@ -7,7 +7,6 @@ use App\Http\Requests\Api\V1\LoyaltyPoints\CancelLoyaltyPointsRequest;
 use App\Http\Requests\Api\V1\LoyaltyPoints\DepositLoyaltyPointsRequest;
 use App\Http\Requests\Api\V1\LoyaltyPoints\WithdrawLoyaltyPointsRequest;
 use App\Http\Resources\Api\V1\LoyaltyPointsTransactionResource;
-use App\Mail\LoyaltyPointsReceived;
 use App\Models\LoyaltyAccount;
 use App\Models\LoyaltyPointsTransaction;
 use App\Notifications\LoyaltyPointsDepositNotification;
